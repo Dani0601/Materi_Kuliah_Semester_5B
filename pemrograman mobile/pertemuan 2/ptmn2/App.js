@@ -55,6 +55,13 @@ const SECTIONS = [
         period: '2024', 
         desc: 'Membantu TU dalam mengelola administrasi dan pengelolaan sekolah'
       },
+      {
+        id: '2',
+        role: 'Cassava Chips Preneur',
+        company: 'PIRT Al-Sadafi',
+        period: '2024 - Sekarang',
+        desc: 'Menjalankan usaha keripik singkong dengan memanfaatkan bahan baku lokal dan memasarkan produk'
+      },
     ],
   },
   {
@@ -62,6 +69,13 @@ const SECTIONS = [
     data : [
       {
         id: '1',
+        role: 'MA IPA',
+        company: 'MA Nurul Huda',
+        period: '2021 - 2024',
+        desc: 'Lulus dengan nilai rata-rata 85,5 dan aktif dalam kegiatan ekstrakurikuler seperti OSIS dan Pramuka'
+      },
+      {
+        id: '2',
         role: 'S1 Informatika',
         company: 'UIN Siber Syekh Nurjati Cirebon',
         period: '2024 - Sekarang',
@@ -74,6 +88,7 @@ const SECTIONS = [
 const SOCIAL = [
   {id: '1', name: 'LinkedIn', icon : '🐙', url: 'https://www.linkedin.com/in/dani-hidayat-1206/', label: 'LinkedIn'},
   {id: '2', name: 'GitHub', icon : '💼', url: 'https://github.com/dani0601', label: 'GitHub'},
+  { id: '3', label: 'Portfolio', icon: '🌐', url: 'https://dani-hidayat.dev', label: 'Portfolio' },
 ];
 
 
