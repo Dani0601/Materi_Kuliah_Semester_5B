@@ -141,6 +141,6 @@ Tugas Pengembangan
 
 Video tangkapan layar Tugas Pengembangan
 
-<img src="CV app.gif" width="30%">
+<img src="cv-app.gif" width="30%">
 
 
