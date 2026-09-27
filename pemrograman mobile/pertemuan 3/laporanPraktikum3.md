@@ -118,9 +118,9 @@ Tambahkan kode berikut di **bawah** fungsi `App()` (paling bawah file):
 
 ![alt text](img/image-14.png)
 
-Latihan
+## Latihan ##
 
-Tugas Wajib
+## Tugas Wajib
 1. Ganti data profil dengan data pribadi Anda (nama, email, foto, dll)
 
 ![alt text](img/image-15.png)
@@ -133,7 +133,7 @@ Tugas Wajib
 
 ![alt text](img/image-17.png)
 
-Tugas Pengembangan
+## Tugas Pengembangan ##
 
 4. Tambah komponen KeyboardAvoidingView agar form tidak tertutup keyboard
 5. Buat tab navigasi sederhana (Info / Skills / Kontak) menggunakan TouchableOpacity
