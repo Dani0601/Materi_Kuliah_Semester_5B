@@ -6,7 +6,7 @@
 2. import library dan component yang dibutuhkan
 3. Konfirmasi bukti
 
-<img src="image.png" width="50%">
+<img src="img/imimage.png" width="50%">
 
 ### Langkah 2: Membuat Array Objek ###
 
@@ -14,20 +14,20 @@
 2. Masukkan Data yang diperlukan
 3. Konfirmasi Bukti
 
-<img src="image-1.png" width="75%">
+<img src="img/image-1.png" width="75%">
 
 4. Data Skill array of objects
 
-![alt text](image-2.png)
+![alt text](img/image-2.png)
 
 5. F
 
 ### Langkah 3 : Sub-Component ###
 **Konsep:** Komponen kecil yang bertugas merender satu item list. Ini adalah praktik **component reuse**.
 
-![alt text](image-3.png)
+![alt text](img/image-3.png)
 
-![alt text](image-4.png)
+![alt text](img/image-4.png)
 
 ### Langkah 4 : State Management dengan useState ###
 
@@ -35,7 +35,7 @@
 
 Tambahkan state di dalam fungsi `App()`:
 
-![alt text](image-5.png)
+![alt text](img/image-5.png)
 
 ## 📝 LANGKAH 5 — SafeAreaView, StatusBar & Header
 
@@ -46,7 +46,7 @@ Tambahkan state di dalam fungsi `App()`:
 
 Ganti bagian `return (...)` di `App()`:
 
-![alt text](image-6.png)
+![alt text](img/image-6.png)
 
 ## 📝 LANGKAH 6 — ScrollView & Profil Section (View, Text,  img/image)
 
@@ -60,7 +60,7 @@ Ganti `<View><Text ...>Step 5</Text></View>` dengan:
  
 {/* 4. ScrollView → semua konten CV dibungkus di sini */}
 
-![alt text](image-7.png)
+![alt text](img/image-7.png)
 
 ## 📝 LANGKAH 7 — FlatList (Daftar Skills)
 
@@ -74,7 +74,7 @@ Tambahkan kode berikut **di dalam** `<ScrollView>`, setelah section profil:
     Komponen: FlatList
     ════════════════════════════════════ */}
 
-![![alt text](image-11.png)](image-10.png)
+![![alt text](img/image-11.png)](img/image-10.png)
 
 ## 📝 LANGKAH 8 — SectionList (Pengalaman & Pendidikan)
 
@@ -86,7 +86,7 @@ Tambahkan kode berikut **di dalam** `<ScrollView>`, setelah section profil:
     Komponen: SectionList
     ════════════════════════════════════ */}
 
-![alt text](image-12.png)
+![alt text](img/image-12.png)
 
 ## 📝 LANGKAH 9 — TextInput, Button & ActivityIndicator
 
@@ -101,7 +101,7 @@ Tambahkan kode berikut **di dalam** `<ScrollView>`, setelah section profil:
     Komponen: TextInput, Button, ActivityIndicator
     ════════════════════════════════════ */}
 
-![alt text](image-13.png)
+![alt text](img/image-13.png)
 
 ## 📝 LANGKAH 10 — Modal (Popup Detail)
 
@@ -116,22 +116,22 @@ Tambahkan **setelah** penutup `</ScrollView>` dan sebelum `</SafeAreaView>`:
 
 Tambahkan kode berikut di **bawah** fungsi `App()` (paling bawah file):
 
-![alt text](image-14.png)
+![alt text](img/image-14.png)
 
 Latihan
 
 Tugas Wajib
 1. Ganti data profil dengan data pribadi Anda (nama, email, foto, dll)
 
-![alt text](image-15.png)
+![alt text](img/image-15.png)
 
 2. Tambah minimal 3 skill baru dengan warna berbeda
 
-![alt text](image-16.png)
+![alt text](img/image-16.png)
 
 3. Tambah 1 pengalaman kerja/organisasi dan 1 riwayat pendidikan baru
 
-![alt text](image-17.png)
+![alt text](img/image-17.png)
 
 Tugas Pengembangan
 
