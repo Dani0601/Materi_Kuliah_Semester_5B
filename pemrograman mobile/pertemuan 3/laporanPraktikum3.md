@@ -6,7 +6,7 @@
 2. import library dan component yang dibutuhkan
 3. Konfirmasi bukti
 
-<img src="img/imimage.png" width="50%">
+<img src="img/image.png" width="50%">
 
 ### Langkah 2: Membuat Array Objek ###
 
