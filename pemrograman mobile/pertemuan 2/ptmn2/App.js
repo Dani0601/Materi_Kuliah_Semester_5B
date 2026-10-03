@@ -822,3 +822,21 @@ alertButtonText: {
 },
 
 });
+
+<View style={styles.sectionBox}>
+  <Text style={styles.sectionTitle}>🛠️ Keahlian</Text>
+  <Text style={styles.sectionSubtitle}>
+    ↳ FlatList: menampilkan list data secara efisien
+  </Text>
+
+  {/* 5. FlatList -> daftar skill */}
+  <FlatList
+    data={SKILLS}                          // array data
+    keyExtractor={(item) => item.id}       // key unik tiap item
+    renderItem={({ item }) => <SkillCard item={item} />} // render tiap item
+    scrollEnabled={false}                  // scroll dihandle ScrollView
+    ItemSeparatorComponent={() => (        // komponen pemisah antar item
+      <View style={{ height: 8 }} />
+    )}
+  />
+</View>
